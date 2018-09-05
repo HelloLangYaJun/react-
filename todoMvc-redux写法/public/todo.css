@@ -1,0 +1,172 @@
+.map{
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    border: 2px solid #af5b5e;
+    position: relative;
+    background: url("http://pic32.photophoto.cn/20140711/0017030590709394_b.jpg") no-repeat  ;
+}
+.heat{
+    height: 600px;
+    background: url("http://img4.cache.netease.com/photo/0031/2014-11-12/AARVR9U95SH90031.jpg") no-repeat  ;
+
+}
+.headPortrait-wrap .headPortrait{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+    position: absolute;
+}
+.headPortrait-wrap{
+    height: 100px;
+    color: black;
+    top: 0px;
+    position: absolute;
+}
+/*属性和休息*/
+ .map .headPortrait-wrap .inform{
+     width: 50px;
+     height: 22px;
+     text-align: center;
+     position: absolute;
+     background: maroon;
+     color: #ffffff;
+     top: 100px;
+
+}
+.map .headPortrait-wrap .xiuxi{
+    left: 50px;
+}
+.headPortrait-wrap .mypve{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: 250px;
+    left: 30px;
+    position: absolute;
+}
+.headPortrait-wrap .mypve .wrap{
+   margin-top: 110px;
+    margin-left: -25px;
+}
+.headPortrait-wrap .pve .wrap{
+    margin-top: 110px;
+    margin-left: -25px;
+}
+/*敌方图片加特效*/
+.headPortrait-wrap .pve{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: 250px;
+    right: -900px;
+    position: absolute;
+}
+.headPortrait-wrap .youskill{
+    width: 550px;
+    height: 550px;
+    left: -75px;
+    top:-75px;
+    color: red;
+    z-index: 3;
+    position: absolute;
+}
+.headPortrait-wrap .myskill{
+    width: 250px;
+    height: 250px;
+    left: -75px;
+    top:-75px;
+    color: red;
+    z-index: 3;
+    position: absolute;
+}
+.headPortrait-wrap .shanghai{
+   font-weight: bold;
+    left: 40px;
+    color: red;
+    z-index: 3;
+    display: none;
+    position: absolute;
+}
+.headPortrait-wrap p{
+    width: 200px;
+    height: 20px;
+    border: 1px solid #6a6a6a;
+    position: absolute;
+    font-weight: 800;
+    margin: 0;
+}
+.headPortrait-wrap p:nth-child(1){
+    background: #f6f6f6;
+    opacity: 0.9;
+}
+.headPortrait-wrap p:nth-child(2){
+    top: 22px;
+    z-index: 1;
+}
+.headPortrait-wrap p:nth-child(3){
+    top: 44px;
+    z-index: 1;
+}
+.headPortrait-wrap p:nth-child(4){
+
+}
+.headPortrait-wrap p:nth-child(5){
+    background: red;
+    top: 22px;
+}
+.headPortrait-wrap p:nth-child(6){
+    background: deepskyblue;
+    top: 44px;
+}
+.headPortrait-wrap .wrap{
+    height: 66px;
+    width: 202px;
+    margin-top: 20px;
+    margin-left: 110px;
+    background: #e6e6e6;
+    position: relative;
+}
+.headPortrait-wrap .findheat{
+    width: 271px;
+    height: 98px;
+    top: 170px;
+    left: 360px;
+    position: relative;
+}
+.headPortrait-wrap .findheat p{
+    width: 100%;
+    height: 98px;
+    line-height: 98px;
+    text-align: center;
+    background: none;
+    border: none;
+    color: white;
+}
+/*开始战斗倒计时*/
+.startheat{
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    color: maroon;
+    top: 50%;
+    left: 50%;
+    margin-top: -15px;
+    margin-left: -100px;
+    position: absolute;
+}
+.endheat{
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    color: maroon;
+    top: 50%;
+    left: 50%;
+    margin-top: -15px;
+    margin-left: -100px;
+    position: absolute;
+    display: none;
+}

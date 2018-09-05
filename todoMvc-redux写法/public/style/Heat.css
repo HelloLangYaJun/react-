@@ -1,0 +1,46 @@
+.petinform{
+    width: 250px;
+    height: 400px;
+    margin: 0 auto;
+    left: 113px;
+    top: 101px;
+    opacity: 0.9;
+    border-radius: 6px;
+    border: 1px solid #fff;
+    background: brown;
+    display: none;
+    position: absolute;
+}
+.petinform p{
+    width: 248px;
+    min-height: 22px;
+    margin: 2px 0;
+    background: #ffffff;
+    border: 1px solid #fff;
+}
+.petinform p p{
+    width: 246px;
+    height: 60px;
+}
+.skillicon{
+    position: absolute;
+    top: 140px;
+}
+.skillicon img{
+    width: 60px;
+    height: 60px;
+}
+.petinform .maxexe{
+    width: 250px;
+    position: absolute;
+    bottom: 2px;
+    height: 13px;
+    background: #fff;
+}
+.petinform .exe{
+    width: 250px;
+    position: absolute;
+    bottom: 2px;
+    height: 8px;
+    background: lightseagreen;
+}
